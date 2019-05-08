@@ -10,8 +10,8 @@
 `浏览器不同的域名不能访问相对应的cookie，但是内部表单不限制`
 
 #### 如何设置同源策略 （hosts）
-test1.abc.com 共享 test2.abc.com里面的cookie，
-如果想让test2 共享 test1里面的cookie 需要设置 `document.domain = 'abc.com'`
+test1.abc.com 共享 test2.abc.com里面的cookie，  
+如果想让test2 共享 test1里面的cookie 需要设置`document.domain = 'abc.com'`
 
 例如：
 
