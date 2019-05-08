@@ -13,16 +13,16 @@
 test1.abc.com 共享 test2.abc.com里面的cookie，
 如果想让test2 共享 test1里面的cookie 需要设置 `document.domain = 'abc.com'`
 
-eg: 
-test1.abc.com
+例如：
 
 ```
+  /*test1.abc.com*/
   <script>
     document.domain = 'abc.com';
     document.cookie = 'callback=test';
   </script>
 
-  test2.abc.com
+  /*test2.abc.com*/
   <script>
     console.log(document.cookie);
   </script>
