@@ -1,11 +1,11 @@
 ## 不一样的html
 
 #### 什么是同源？
-1.协议相同
+1. 协议相同
 
-2.域名相同
+2. 域名相同
 
-3.端口相同
+3. 端口相同
 
 `浏览器不同的域名不能访问相对应的cookie，但是内部表单不限制`
 
@@ -16,7 +16,7 @@ test1.abc.com 共享 test2.abc.com里面的cookie，
 eg: 
 test1.abc.com
 
-(```)
+```
   <script>
     document.domain = 'abc.com';
     document.cookie = 'callback=test';
@@ -26,7 +26,8 @@ test1.abc.com
   <script>
     console.log(document.cookie);
   </script>
-(```)
+
+```
 
 #### 如何突破同源策略
 1. html标签 img， iframe
