@@ -15,6 +15,7 @@ test1.abc.com 共享 test2.abc.com里面的cookie，
 
 eg: 
 test1.abc.com
+(```)
 <script>
   document.domain = 'abc.com';
   document.cookie = 'callback=test';
@@ -24,6 +25,7 @@ test2.abc.com
 <script>
   console.log(document.cookie);
 </script>
+(```)
 
 #### 如何突破同源策略
 1. html标签 img， iframe
