@@ -10,10 +10,11 @@
 `浏览器不同的域名不能访问相对应的cookie，但是内部表单不限制`
 
 #### 如何设置同源策略 （hosts）
-test1.abc.com页面中引用<iframe src = "test2.abc.com">里面的cookie，  
+test1.abc.com页面中引用`<iframe src = "test2.abc.com">`里面的cookie，  
+
 如果想让test1 共享 test2里面的cookie 需要设置document.domain = 'abc.com'  
+
 `注意: cookie中设置domain document.cookie = 'callback=test;domain=abc.com'`  
-----
 使用domain实现数据共享必须是基础域名相同，端口号相同，协议相同
 
 例如：
