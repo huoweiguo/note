@@ -19,3 +19,4 @@
 > **systemctl stop server:** 停止server服务状态
 > **systemctl start server:** 启动server服务状态
 > **rm -f dir:** 删除dir目录
+> **su username:** 切换用户
