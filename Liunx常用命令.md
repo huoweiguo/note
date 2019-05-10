@@ -1,8 +1,8 @@
 ### 常用Liunx命令
 
-> **ip addr:** 查看服务器IP地址
-> **pwd:** 查看当前路径
-> **scp:** 上传文件
+> **ip addr:** 查看服务器IP地址  
+> **pwd:** 查看当前路径  
+> **scp:** 上传文件  
 
 `例如： SCP ./LIST.JSON  NAME:192.168.XXX.XXX:/HOME/NAME `
 
