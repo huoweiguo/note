@@ -10,13 +10,13 @@
 
 `例如：cat ifcfg-ens33`
 
-> **ifdown:** 关闭网卡
-> **ifup:** 重启网卡
-> **vi:** 修改文件
-> **ssh:** 连接服务器
-> **cd ～:** 返回顶层目录
-> **systemctl status server:** 查看server服务状态
-> **systemctl stop server:** 停止server服务状态
-> **systemctl start server:** 启动server服务状态
-> **rm -f dir:** 删除dir目录
-> **su username:** 切换用户
+> **ifdown:** 关闭网卡  
+> **ifup:** 重启网卡  
+> **vi:** 修改文件  
+> **ssh:** 连接服务器  
+> **cd ～:** 返回顶层目录  
+> **systemctl status server:** 查看server服务状态  
+> **systemctl stop server:** 停止server服务状态  
+> **systemctl start server:** 启动server服务状态  
+> **rm -f dir:** 删除dir目录  
+> **su username:** 切换用户  
